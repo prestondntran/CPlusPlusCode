@@ -1,4 +1,4 @@
-/* This program prints "Hello World."
+/* This program prints "Hello World." */
 
 #include <iostream>
 using namespace std;
