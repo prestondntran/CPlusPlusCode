@@ -10,13 +10,13 @@ int main() {
   float cents;
   
   cout<<"Please enter the number of coins: "<<endl;
-  cout<<"Number of quarters: ";
+  cout<<"# of quarters: ";
   cin>>quarters;
-  cout<<"\nNumber of dimes: ";
+  cout<<"\# of dimes: ";
   cin>>dimes;
-  cout<<"\nNumber of nickels: ";
+  cout<<"\# of nickels: ";
   cin>>nickels;
-  cout<<"\nNumber of pennies: ";
+  cout<<"\# of pennies: ";
   cin>>pennies;
   
   total = ((float)quarters / 4.0) + ((float)dimes / 10.0) + ((float)nickels / 20.0) + ((float)pennies / 100.0);
