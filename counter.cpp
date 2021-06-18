@@ -6,17 +6,22 @@ using namespace std;
 int main() {
   int quarters, dimes, nickels, pennies;
   float total;
-  int dollars, cents;
+  int dollars;
+  float cents;
   
   cout<<"Please enter the number of coins: "<<endl;
-  cin>>"Number of quarters: ">>quarters>>endl;
-  cin>>"Number of dimes: ">>dimes>>endl;
-  cin>>"Number of nickels: ">>nickels>>endl;
-  cin>>"Number of pennies: ">>pennies>>endl;
+  cout<<"Number of quarters: ";
+  cin>>quarters;
+  cout<<"\nNumber of dimes: ";
+  cin>>dimes;
+  cout<<"\nNumber of nickels: ";
+  cin>>nickels;
+  cout<<"\nNumber of pennies: ";
+  cin>>pennies;
   
-  total = ((float)quarters / 4.0) + ((float)dimes / 10.0) + ((float)nickels / 20.0) + ((float)pennies / 100.0)
-  dollars = int(total)
-  cents = total - dollars
+  total = ((float)quarters / 4.0) + ((float)dimes / 10.0) + ((float)nickels / 20.0) + ((float)pennies / 100.0);
+  dollars = int(total);
+  cents = (total - dollars) * 100;
   
   cout<<"The total is "<<dollars<<" dollars and "<<cents<<" cents."<<endl;
   return 0;
