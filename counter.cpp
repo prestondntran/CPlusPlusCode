@@ -23,6 +23,6 @@ int main() {
   dollars = int(total);
   cents = (total - dollars) * 100;
   
-  cout<<"The total is "<<dollars<<" dollars and "<<cents<<" cents."<<endl;
+  cout<<"the total is "<<dollars<<" dollars and "<<cents<<" cents"<<endl;
   return 0;
 }
