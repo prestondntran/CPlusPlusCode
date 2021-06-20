@@ -12,8 +12,8 @@ int main() {
   cout<<"Please enter height in inches: ";
   cin>>height;
   
-  weight = weight / 0.453592
-  height = height / 0.0254
+  weight = weight / 0.453592;
+  height = height / 0.0254;
   
   BMI = weight / (height * height);
   BMI = int((BMI * 100) + 0.5);
