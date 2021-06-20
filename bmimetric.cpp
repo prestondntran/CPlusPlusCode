@@ -12,9 +12,9 @@ int main() {
   cout<<"Please enter height in meters: ";
   cin>>height;
   
-  BMI = weight / (height * height)
-  BMI = int(BMI * 100)
-  BMI = BMI / 100
+  BMI = weight / (height * height);
+  BMI = int(BMI * 100);
+  BMI = BMI / 100;
     
   cout<<"BMI is: "<<BMI;
   
