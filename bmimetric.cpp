@@ -13,8 +13,8 @@ int main() {
   cin>>height;
   
   BMI = weight / (height * height);
-  BMI = int(BMI * 100);
-  BMI = BMI / 100;
+  BMI = int((BMI * 100) + 0.5);
+  BMI = (float)BMI / 100;
     
   cout<<"BMI is: "<<BMI;
   
