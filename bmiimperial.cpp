@@ -16,10 +16,9 @@ int main() {
   height = height * 0.0254;
   
   BMI = weight / (height * height);
-  BMI = int((BMI * 100) + 0.5);
-  BMI = (float)BMI / 100;
     
-  cout<<"BMI is: "<<BMI;
+  cout<<"BMI is: ";
+  printf("%.2f", BMI);
   
   return 0;
 }
