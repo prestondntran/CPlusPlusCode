@@ -19,7 +19,7 @@ int main() {
   pennies = ((cents % 25) % 10) % 5;
   quarters = (dollars * 4) + quarters;
     
-  cout<<"the coins are "<<quarters<<" quarters, "<<dimes<<" dimes, "<<nickels<<" nickels, and "<<pennies<<" pennies";
+  cout<<"the coins are "<<quarters<<" quarters, "<<dimes<<" dimes, "<<nickels<<" nickels and "<<pennies<<" pennies";
     
   return 0;
 }
