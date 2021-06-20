@@ -1,7 +1,7 @@
 /* This program asks the user for metric height and weight and outputs the BMI with two decimal places. */
 
 #include <iostream>
-using namspace std;
+using namespace std;
 
 int main() {
   float weight, height;
