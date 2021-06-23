@@ -9,7 +9,7 @@ int main(int argc, char* argv[]) {
   int year;
   
   if (argc == 1)
-    return None
+    return None;
   else {
     year = atoi(argv[1]);
 
