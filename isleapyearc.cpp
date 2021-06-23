@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-int main(int argc) {
+int main(int argc, char** argv[]) {
   int year;
   
   cin>>year;
