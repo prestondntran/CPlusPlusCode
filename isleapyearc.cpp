@@ -3,15 +3,11 @@
 #include <iostream>
 using namespace std;
 
-int main(int argc, char** argv[]) {
-  int year;
-  
-  cin>>year;
-  
-  if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
-    cout<<year<<" was a leap year"<<endl;
+int main(int argc, char* argv[]) {  
+  if ((argv[1] % 4 == 0 && argv[1] % 100 != 0) || (argv[1] % 400 == 0))
+    cout<<argv[1]<<" was a leap year"<<endl;
   else
-    cout<<year<<" was not a leap year"<<endl;
+    cout<<argv[1]<<" was not a leap year"<<endl;
   
   return 0;
 }
