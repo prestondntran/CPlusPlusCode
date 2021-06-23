@@ -4,14 +4,14 @@
 using namespace std;
 
 int main() {
-  int year;
+  int user_year;
   
-  cin>>year;
+  cin>>user_year;
   
-  if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
-    cout<<year<<" was a leap year"<<endl;
+  if ((user_year % 4 == 0 && user_year % 100 != 0) || (user_year % 400 == 0))
+    cout<<user_year<<" was a leap year"<<endl;
   else
-    cout<<year<<" was not a leap year"<<endl;
+    cout<<user_year<<" was not a leap year"<<endl;
   
   return 0;
 }
