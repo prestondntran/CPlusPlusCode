@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-int main(int argc, char* argv[]) {  
+int main(int argc, char *argv[]) {  
   if ((argv[1] % 4 == 0 && argv[1] % 100 != 0) || (argv[1] % 400 == 0))
     cout<<argv[1]<<" was a leap year"<<endl;
   else
