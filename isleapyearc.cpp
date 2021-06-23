@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(int argc, char *argv[]) {  
-  if ((argv[1] % 4 == 0 && argv[1] % 100 != 0) || (argv[1] % 400 == 0))
+  if (((int)argv[1] % 4 == 0 && (int)argv[1] % 100 != 0) || ((int)argv[1] % 400 == 0))
     cout<<argv[1]<<" was a leap year"<<endl;
   else
     cout<<argv[1]<<" was not a leap year"<<endl;
