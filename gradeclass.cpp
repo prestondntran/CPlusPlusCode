@@ -6,7 +6,7 @@ using namespace std;
 int main() {
   int grade1, grade2;
   
-  cout<<"Please enter two grades, separated by a space: ";
+  cout<<"Please enter 2 grades, separated by a space: ";
   cin>>grade1>>grade2;
   
   if(grade1 < 60 && grade2 < 60)
