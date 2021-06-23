@@ -10,6 +10,8 @@ int main() {
   cout<<"Please enter 4 positive integers, separated by a space: "<<endl;
   cin>>num1>>num2>>num3>>num4;
   
+  even_count = 0;
+  
   if(num1 % 2 == 0)
     even_count += 1;
   if(num2 % 2 == 0)
