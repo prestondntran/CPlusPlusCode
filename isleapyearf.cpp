@@ -3,7 +3,7 @@
 using namespace std;
 
 bool isleapyear(int inyear) {
-   if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
+   if ((inyear % 4 == 0 && inyear % 100 != 0) || (inyear % 400 == 0))
      return True;
    else 
      return False;
