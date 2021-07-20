@@ -8,6 +8,6 @@ float avgoflst(int lst[], int size) {
   for (int i = 0; i < size; i++) {
     sum += lst[i];
   }
-  average = sum / size
+  average = sum / size;
   return average;
 }
