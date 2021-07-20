@@ -8,4 +8,5 @@ int maxinlst(int lst[], int size) {
     if (lst[i] > max) 
       max = lst[i];
   }
+  return max;
 }
