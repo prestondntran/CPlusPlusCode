@@ -19,7 +19,7 @@ int main() {
   cout<<"Enter tax rate, e.g. 5.5 for 5.5% tax: ";
   cin>>tax;
   
-  total = price1 + price2
+  total = price1 + price2;
   cout<<"Base price = "<<total<<endl;
   
   if (price1 < price2)
