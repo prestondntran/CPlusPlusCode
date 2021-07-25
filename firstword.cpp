@@ -7,7 +7,7 @@ string firstword(string s) {
   string new_s = "";
   char current_char;
   for (int i = 0; i < s.length(); i++) {
-    current_char = s[i];
+    current_char = (char)s[i];
     if (current_char.isspace())
       break;
     new_s += s[i];
