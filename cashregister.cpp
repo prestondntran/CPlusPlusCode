@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
   float price1, price2;
-  char member;
+  string member;
   float tax;
   float total;
   
