@@ -5,8 +5,10 @@ using namespace std;
 
 string firstword(string s) {
   string new_s = "";
+  char current_char;
   for (int i = 0; i < s.length(); i++) {
-    if (s[i].isspace())
+    current_char = s[i];
+    if (current_char.isspace())
       break;
     new_s += s[i];
   }
