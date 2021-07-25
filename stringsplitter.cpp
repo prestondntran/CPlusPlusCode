@@ -15,7 +15,7 @@ int main() {
   mid_char = str_len / 2;
   cout<<"Middle character: "<<str1[mid_char]<<endl;
   
-  cout<<"First half: "<<str1.substr(0, (mid_char - 1))<<endl;
+  cout<<"First half: "<<str1.substr(0, mid_char)<<endl;
   
   cout<<"Second half: "<<str1.substr((mid_char + 1), (str_len - 1))<<endl;
   
