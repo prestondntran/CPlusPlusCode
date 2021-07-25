@@ -6,7 +6,7 @@ using namespace std;
 string firstword(string s) {
   string new_s = "";
   int space = s.find(" ");
-  new_s = s.substr(0, space)
+  new_s = s.substr(0, space);
   
   return new_s;
 }
