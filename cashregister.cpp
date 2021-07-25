@@ -20,7 +20,8 @@ int main() {
   cin>>tax;
   
   total = price1 + price2;
-  cout<<"Base price = "<<total<<endl;
+  cout<<"Base price = ";
+  printf("%.2f", total);
   
   if (price1 < price2)
     price1 *= 0.5;
@@ -31,12 +32,12 @@ int main() {
     total = (price1 + price2) * 0.9;
   else
     total = price1 + price2;
-  cout<<"Price after discounts = "<<total<<endl;
+  cout<<"\nPrice after discounts = ";
+  printf("%.2f", total);
   
   total = total + (total * 0.01 * tax);
-  total = int((total * 100) + 0.5);
-  total = (float)total / 100;
-  cout<<"Total price = "<<total<<endl;
+  cout<<"\nTotal price = ";
+  printf("%.2f", total);
   
   return 0;
 }
